@@ -14,4 +14,5 @@ dependencies = [
     "pymupdf>=1.26.3",
     "pyppeteer>=2.0.0",
     "tavily-python>=0.7.9",
+    "arxiv>=2.1.0",
 ]
