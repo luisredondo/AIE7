@@ -37,3 +37,8 @@ Together offers serverless endpoints for embedding models, we'll be using the [B
 ### ❓ Question #1: 
 
 What is the difference between serverless and dedicated endpoints?
+
+##### ✅ Answer:
+
+- Serverless endpoints are shared between many users, so we only pay for the tokens we actually use. It's cheaper for small tasks but can be slower when lots of people are using it. 
+- Dedicated endpoints give us our own private server that nobody else uses. We pay per minute to keep it running, but we get consistent fast performance with no limits. If we are using a lot of tokens regularly, dedicated actually becomes cheaper than serverless. Also, with dedicated we can use our own custom models and settings, while serverless only lets us use the standard models they offer. ****
